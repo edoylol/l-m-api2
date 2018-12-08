@@ -83,7 +83,7 @@ class Commands(object):
         self.cl.addMessage(self.help())
         self.cl.replyMessage()
 
-cl = LINE(channelAccessToken="TOKEN")
+cl = LINE(channelAccessToken="HllzR7lQE3rKqkVx7QmFCTqQ2et2HaiQbKwKAQOeksfm4Ypg5xEdGcFva4qjtkhZqPrxg1S+V/ouHm3FOepJ7cdWm/imHI8gceuK1AxzcEgH3e/xW+ctwAdcaDSwjDOLoW59stZCbjSD+XR8OnGbcgdB04t89/1O/w1cDnyilFU=")
 tracer = HookExecuter(cl,prefix="!")
 tracer.addClass(Events(),type="Events")
 tracer.addClass(Messages(),type="Messages")
